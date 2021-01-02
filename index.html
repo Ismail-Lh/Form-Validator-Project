@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/38e7bf1ce5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Form validator</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Register With Us</h2>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username">
+                <i class="fas fa-check-circle check"></i>
+                <i class="fas fa-exclamation-circle excl"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter Your Email">
+                <i class="fas fa-check-circle check"></i>
+                <i class="fas fa-exclamation-circle excl"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Your Password">
+                <i class="fas fa-check-circle check"></i>
+                <i class="fas fa-exclamation-circle excl"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Confirm Your Password">
+                <i class="fas fa-check-circle check"></i>
+                <i class="fas fa-exclamation-circle excl"></i>
+                <small>Error Message</small>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
